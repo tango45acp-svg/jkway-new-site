@@ -4,65 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J & K Insurance and Real Estate Services</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: Arial, sans-serif; }
-        .hero { background-color: #007bff; color: white; padding: 100px 0; text-align: center; }
-        .chat-widget { position: fixed; bottom: 20px; right: 20px; background: #28a745; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
-        .chat-modal { display: none; position: fixed; bottom: 80px; right: 20px; width: 300px; background: white; border: 1px solid #ccc; padding: 10px; border-radius: 5px; }
-        #chat-messages { height: 200px; overflow-y: scroll; margin-bottom: 10px; }
+        body { font-family: 'Arial', sans-serif; background-color: black; color: gold; }
+        .hero { background-image: url('images/hero-background.jpg'); background-size: cover; padding: 6rem 0; text-align: center; }
+        .chat-widget { position: fixed; bottom: 1rem; right: 1rem; background: gold; color: black; padding: 0.5rem 1rem; border-radius: 0.25rem; cursor: pointer; }
+        .chat-modal { display: none; position: fixed; bottom: 5rem; right: 1rem; width: 20rem; background: black; border: 1px solid gold; padding: 0.5rem; border-radius: 0.25rem; }
+        #chat-messages { height: 12rem; overflow-y: scroll; margin-bottom: 0.5rem; color: gold; }
+        .fade-in { animation: fadeIn 1s; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">J & K</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+<body class="bg-black text-yellow-400">
+    <nav class="bg-black text-yellow-400 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">J & K</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-yellow-600">Home</a></li>
+                <li><a href="about.html" class="hover:text-yellow-600">About Us</a></li>
+                <li><a href="services.html" class="hover:text-yellow-600">Services</a></li>
+                <li><a href="blog.html" class="hover:text-yellow-600">Blog</a></li>
+                <li><a href="contact.html" class="hover:text-yellow-600">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
     <section class="hero">
-        <div class="container">
-            <h1>Welcome to J & K Insurance and Real Estate Services</h1>
-            <p>Your trusted partner in Sutherland, IA and beyond.</p>
-            <img src="https://via.placeholder.com/800x400?text=Hero+Image" alt="Hero Image" class="img-fluid">
+        <div class="container mx-auto fade-in">
+            <img src="images/logo.jpg" alt="J & K Logo" class="mx-auto mb-4" style="width: 150px;">
+            <h1 class="text-4xl font-bold mb-2">Welcome to J & K Insurance and Real Estate Services</h1>
+            <p class="text-xl">Your trusted partner in Sutherland, IA and beyond.</p>
         </div>
     </section>
 
-    <section class="container my-5">
-        <h2>Our Commitment</h2>
-        <p>We provide top-notch insurance and real estate services with a personal touch.</p>
+    <section class="container mx-auto my-10 fade-in">
+        <h2 class="text-3xl font-bold mb-4">Our Commitment</h2>
+        <p>We provide top-notch insurance and real estate services with a personal touch. We are committed to maintaining the confidentiality, integrity and security of your personal information.</p>
+        <!-- Added from old site -->
+        <p>Statements on this web site as to policies and coverage provide general information only, no guarantee. This information is not an offer to sell insurance. Insurance coverage cannot be bound or changed via any submission until confirmed directly by a licensed agent.</p>
     </section>
 
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
+    <section class="container mx-auto my-10 fade-in">
+        <h2 class="text-3xl font-bold mb-4">Our Locations</h2>
+        <p>Main Office: 127 W 2nd St Box 99 Sutherland, IA 51058 | Tel: 712-446-2663</p>
+        <p>Moville: 743 E Frontage Road Moville, IA 51039 | Tel: 917-283-9871</p>
+        <p>Anthon: 308 E Main St Anthon, IA 51004 | Tel: 712-321-5047</p>
+        <p>Cherokee: 1225 N 2nd St Cherokee, IA 51012 | Tel: 712-321-5046</p>
+        <p>Alta: 202 N Main St, Alta, IA 51002 | Tel: 515-206-6763</p>
+        <p>* Disclaimer: Only Insurance Services Offered at these locations.</p>
+    </section>
+
+    <footer class="bg-yellow-900 text-black py-8">
+        <div class="container mx-auto">
             <p>Main Office: 127 W 2nd St Box 99 Sutherland, IA 51058 | Tel: 712-446-2663</p>
             <p>Email: Mark.Fuhrman@ceterawealth.com</p>
-            <!-- Add other locations and disclaimers from old site -->
-            <p>J & K 2023 All Rights Reserved. <a href="terms-of-use.html" class="text-white">Terms of Use</a> and <a href="privacy-policy.html" class="text-white">Privacy Policy</a></p>
+            <p>J & K 2023 All Rights Reserved. <a href="terms-of-use.html" class="text-black hover:text-yellow-600">Terms of Use</a> and <a href="privacy-policy.html" class="text-black hover:text-yellow-600">Privacy Policy</a></p>
+            <p>Securities and advisory services offered through Cetera Advisor Networks LLC, member FINRA/SIPC, a broker/dealer and Registered Investment Adviser. Cetera is under separate ownership from any other named entity.</p>
+            <!-- More disclaimers from old site -->
         </div>
     </footer>
 
     <!-- AI Chat Widget -->
-    <div class="chat-widget" onclick="toggleChat()">Chat with AI Assistant</div>
+    <div class="chat-widget" onclick="toggleChat()">Chat with Jarvis AI</div>
     <div class="chat-modal" id="chatModal">
         <div id="chat-messages"></div>
-        <input type="text" id="chat-input" class="form-control" placeholder="Ask a question...">
-        <button onclick="sendMessage()" class="btn btn-primary mt-2">Send</button>
+        <input type="text" id="chat-input" class="bg-black text-gold border-gold" placeholder="Ask a question...">
+        <button onclick="sendMessage()" class="bg-gold text-black mt-2 px-4 py-1 rounded">Send</button>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         function toggleChat() {
             const modal = document.getElementById('chatModal');
@@ -75,33 +84,20 @@
             const question = input.value;
             input.value = '';
 
-            messages.innerHTML += `<p><strong>You:</strong> ${question}</p>`;
+            messages.innerHTML += `<p class="text-gold"><strong>You:</strong> ${question}</p>`;
 
-            // Replace with your Grok API key
-            const apiKey = 'YOUR_GROK_API_KEY_HERE'; // Note: Obtain from xAI and keep secure (use backend for production)
-
-            if (!apiKey || apiKey === 'YOUR_GROK_API_KEY_HERE') {
-                messages.innerHTML += `<p><strong>AI:</strong> API key is required for real AI responses. Please configure it.</p>`;
-                return;
-            }
-
+            // Call local OpenClaw gateway (replace with your ngrok URL for public use)
+            const endpoint = 'http://localhost:18789/chat'; // Expose with ngrok for public
             try {
-                const response = await fetch('https://api.grok.xai.com/v1/chat/completions', { // Confirm endpoint
+                const response = await fetch(endpoint, {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${apiKey}`
-                    },
-                    body: JSON.stringify({
-                        model: 'grok-beta', // Assuming model name
-                        messages: [{ role: 'user', content: question }]
-                    })
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message: question})
                 });
                 const data = await response.json();
-                const answer = data.choices[0].message.content;
-                messages.innerHTML += `<p><strong>AI:</strong> ${answer}</p>`;
+                messages.innerHTML += `<p class="text-gold"><strong>Jarvis:</strong> ${data.answer}</p>`;
             } catch (error) {
-                messages.innerHTML += `<p><strong>AI:</strong> Error: ${error.message}</p>`;
+                messages.innerHTML += `<p class="text-red-500"><strong>Error:</strong> ${error.message}</p>`;
             }
             messages.scrollTop = messages.scrollHeight;
         }
