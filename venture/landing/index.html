@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Fix-Up for Local Businesses</title>
+<meta name="description" content="Flat $299 fix for small business websites: working contact forms, mobile-friendly, local SEO. Delivered in 5 business days. Free 10-point website check.">
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#5b5b57; --accent:#1f5f4a; --card:#ffffff; --line:#e4e1d9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141413; --fg:#f1efe8; --muted:#a9a79f; --accent:#6fc2a2; --card:#1d1d1b; --line:#2f2e2b; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); }
+  .wrap { max-width:880px; margin:0 auto; padding:0 16px; }
+  header { padding:64px 0 40px; }
+  h1 { font-size:clamp(28px,5vw,44px); line-height:1.15; margin:0 0 16px; }
+  h2 { font-size:26px; margin:48px 0 16px; }
+  .lead { font-size:19px; color:var(--muted); max-width:640px; }
+  .btn { display:inline-block; background:var(--accent); color:var(--bg); padding:12px 22px; border-radius:6px; text-decoration:none; font-weight:600; margin:8px 8px 0 0; }
+  .btn.ghost { background:transparent; color:var(--accent); border:2px solid var(--accent); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:20px; }
+  .price { font-size:32px; font-weight:700; }
+  ul { padding-left:20px; }
+  form { display:grid; gap:10px; max-width:520px; }
+  input, textarea { font:inherit; padding:10px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); }
+  footer { margin:64px 0 32px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Your website should bring in calls, not lose them.</h1>
+    <p class="lead">We fix small business websites for a flat $299, delivered in 5 business days. That covers forms that actually send, a site that works on phones, and local search basics done right.</p>
+    <a class="btn" href="#check">Get a free 10-point check</a>
+    <a class="btn ghost" href="tel:{{PHONE}}">Call {{PHONE}}</a>
+  </header>
+
+  <h2>What we usually find</h2>
+  <div class="grid">
+    <div class="card"><strong>Contact forms that go nowhere</strong><p>Visitors fill them out and you never hear about it.</p></div>
+    <div class="card"><strong>Broken on phones</strong><p>Most local searches happen on mobile. If the site is hard to use there, people call the next business.</p></div>
+    <div class="card"><strong>Placeholder or outdated content</strong><p>"Coming soon," old copyright years and stock images make a business look closed.</p></div>
+  </div>
+
+  <h2>Pricing</h2>
+  <div class="grid">
+    <div class="card">
+      <div>Website Fix-Up</div>
+      <div class="price">$299</div>
+      <ul>
+        <li>Up to 6 pages repaired and made consistent</li>
+        <li>Working contact form and click-to-call</li>
+        <li>Mobile-friendly and faster</li>
+        <li>Local SEO basics and schema</li>
+        <li>One round of revisions</li>
+      </ul>
+      <p>Pay 50% to start and 50% on delivery.</p>
+    </div>
+    <div class="card">
+      <div>Care Plan</div>
+      <div class="price">$49<span style="font-size:16px">/mo</span></div>
+      <ul>
+        <li>Up to 30 minutes of updates a month</li>
+        <li>Monthly form and uptime check</li>
+        <li>Cancel anytime</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 id="check">Free 10-point website check</h2>
+  <p>Send us your website address. Within 2 business days you'll get a one-page report on what's broken and what to fix. There's no obligation.</p>
+  <form action="{{FORM_ENDPOINT}}" method="POST">
+    <input name="name" placeholder="Your name" required>
+    <input name="business" placeholder="Business name" required>
+    <input name="email" type="email" placeholder="Email" required>
+    <input name="website" placeholder="Website address (or 'none')" required>
+    <textarea name="notes" rows="3" placeholder="Anything that's bugging you about your site? (optional)"></textarea>
+    <button class="btn" type="submit" style="border:0;cursor:pointer">Send me the free check</button>
+  </form>
+
+  <footer>{{BUSINESS_NAME}} · {{CITY_STATE}} · {{EMAIL}} · {{PHONE}}</footer>
+</div>
+</body>
+</html>
