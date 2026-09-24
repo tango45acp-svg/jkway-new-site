@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Website Fix-Up for Local Businesses</title>
 <meta name="description" content="Flat $299 fix for small business websites: working contact forms, mobile-friendly, local SEO. Delivered in 5 business days. Free 10-point website check.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"{{BUSINESS_NAME}}","telephone":"{{PHONE}}","email":"{{EMAIL}}","areaServed":"{{CITY_STATE}}","priceRange":"$49-$299"}
+</script>
 <style>
   :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#5b5b57; --accent:#1f5f4a; --card:#ffffff; --line:#e4e1d9; }
   @media (prefers-color-scheme: dark) {
@@ -41,7 +44,7 @@
   <div class="grid">
     <div class="card"><strong>Contact forms that go nowhere</strong><p>Visitors fill them out and you never hear about it.</p></div>
     <div class="card"><strong>Broken on phones</strong><p>Most local searches happen on mobile. If the site is hard to use there, people call the next business.</p></div>
-    <div class="card"><strong>Placeholder or outdated content</strong><p>"Coming soon," old copyright years and stock images make a business look closed.</p></div>
+    <div class="card"><strong>Placeholder or outdated content</strong><p>Unfinished pages, old copyright years and stock images make a business look closed.</p></div>
   </div>
 
   <h2>Pricing</h2>
@@ -80,7 +83,9 @@
     <button class="btn" type="submit" style="border:0;cursor:pointer">Send me the free check</button>
   </form>
 
-  <footer>{{BUSINESS_NAME}} · {{CITY_STATE}} · {{EMAIL}} · {{PHONE}}</footer>
+  <p style="font-size:14px;color:var(--muted)">Privacy: we use what you send only to prepare your website check and reply to you. We never sell or share it. Ask us to delete it anytime at {{EMAIL}}.</p>
+
+  <footer>{{BUSINESS_NAME}} · {{CITY_STATE}} · {{EMAIL}} · {{PHONE}} · <a href="#privacy" id="privacy">Privacy</a></footer>
 </div>
 </body>
 </html>

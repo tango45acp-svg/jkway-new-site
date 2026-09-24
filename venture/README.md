@@ -64,6 +64,9 @@ Every step that touches a customer or cash runs through the founder. Claude does
 | `experiments.md` | Experiments, kill dates, time-to-first-revenue, rejected ideas | CEO |
 | `ledger.csv` | Every dollar with a running balance. The only source of truth for cash. | Finance |
 | `leads.csv` | Every contact with its stage and outcome | Marketing |
+| `check_site.py` | `python3 check_site.py <url>` runs an automated first pass of the website check to qualify leads (run it on your own machine) | Product |
+| `daily-cycle.md` | The 7-step daily cycle and scale mode | CEO |
+| `cycle-log.md` | Daily results of the cycle | CEO |
 | `report.py` | `python3 report.py [YYYY-MM-DD]` prints the daily P&L, runway, funnel, CPL/CAC and flags | Finance |
 | `metrics.md` | Unit economics, break-even, LTV, metric definitions | Finance |
 | `offer.md` | Packages, scope, terms | Product |

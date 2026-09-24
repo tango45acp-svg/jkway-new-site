@@ -11,8 +11,11 @@ Update this board in every session. Each card has an owner and a date.
 - [x] 2026-09-24 **Marketing**: Sales page template (`landing/index.html`).
 - [x] 2026-09-24 **Finance**: Ledger, lead log and report script (`ledger.csv`, `leads.csv`, `report.py`).
 
+- [x] 2026-09-24 **Product**: Automated website checker (`check_site.py`) built and tested. Sales page now passes it.
+- [x] 2026-09-24 **CEO**: Daily cycle written up (`daily-cycle.md`, `cycle-log.md`).
+
 ## In Progress
-- [ ] **Marketing (founder)**: Experiments E1–E3 have not started. They start when the first contact is logged in `leads.csv`.
+- [ ] **Marketing (founder)**: **Day 1 priority.** Experiment 1: 30 contacts in person or by phone. Before each one, run `python3 check_site.py <url>` and contact only businesses with 2 or more FAILs. Log each contact in `leads.csv`. *Assigned 2026-09-24, due 2026-09-25. Not verified yet.*
 
 ## Blocked
 - [ ] **Ops (founder)**: GitHub push fails with a 403. Reconnect GitHub at https://claude.ai/connect-github and install the Claude GitHub App on the repo. *Blocked since 2026-09-24.*
