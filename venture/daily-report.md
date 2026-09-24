@@ -1,13 +1,18 @@
 # Daily CEO Report: YYYY-MM-DD
 
-Every number below must come from `ledger.csv` or from a real count. Leave estimates blank.
+Paste the output of `python3 report.py` here. Don't enter any number by hand.
 
-- Cash balance: $
-- Revenue today / this week: $ / $
-- Net profit today: $
-- Contacts made today (walk-in / call / email):  /  /
-- Replies:     Audits sent:     Calls booked:     Sales:
+```
+(report output)
+```
+
 - Biggest bottleneck:
+- Experiments past their kill date, and the decision on each (kill / continue / double):
+- Accountability: what each role committed to yesterday, and whether it got done
+  - Ops:
+  - Marketing:
+  - Product:
+  - Finance:
 - Next 3 actions (owner):
   1.
   2.

@@ -23,14 +23,14 @@ Models we rejected: paid ads (not enough capital), dropshipping (ad spend and re
 |---|---|
 | Website Fix-Up (one-time) | $299 |
 | Care Plan (monthly) | $49 |
-| Stripe fee on $299 | $8.97 ($299 × 2.9% + $0.30) |
-| Net per Fix-Up | $290.03 |
+| Stripe fees on $299 (charged as $150 + $149) | $9.27 |
+| Net per Fix-Up | $289.73 (96.9% margin) |
 | Net per Care Plan per month | $47.28 |
 | Human hours per Fix-Up | 3–5 (AI drafts, human reviews and deploys) |
 
 **How we reach $100/day net (about $3,000/month):**
 - **Option A:** 10.5 Fix-Ups a month, about 2.5 a week.
-- **Option B:** 6 Fix-Ups plus 27 Care Plans. That's 6 × 290.03 + 27 × 47.28 = $1,740 + $1,277 = $3,017. This option is recurring, so it's the target by month 3.
+- **Option B:** 6 Fix-Ups plus 27 Care Plans. That's 6 × 289.73 + 27 × 47.28 = $1,738 + $1,277 = $3,015. This option is recurring, so it's the target by month 3.
 
 **Sales funnel assumptions.** Nothing is proven yet; replace these with real numbers after week 1.
 - Cold contact → reply: 5–10%
@@ -50,10 +50,30 @@ Models we rejected: paid ads (not enough capital), dropshipping (ad spend and re
 **What Claude can't do:** send email, make calls, open Stripe or bank accounts, or receive money.
 Every step that touches a customer or cash runs through the founder. Claude does the drafting, building and auditing, and verifies work from what the founder reports back.
 
+## Operating rules (CEO)
+- Only KPIs: **net daily profit** and **cash runway**.
+- Reject any idea that needs more than $100 or takes more than 14 days to first dollar.
+- No ad spend until organic demand is proven and unit economics are positive.
+- Every expense must name an experiment and a way to bring in more cash within 7 days. `report.py` flags any that don't.
+- Kill experiments on their kill date (`experiments.md`).
+
 ## Files
-- `ledger.csv`: every dollar in and out. This is the only source of truth for cash.
-- `daily-report.md`: the daily CEO report template.
-- `offer.md`: packages, scope and terms.
-- `outreach.md`: lead sourcing, scripts and follow-up cadence.
-- `audit-checklist.md`: the free 10-point audit used as a lead magnet, with a worked example on the J & K site.
-- `landing/index.html`: the sales page. Fill in the `{{...}}` placeholders, then deploy it from its own repo.
+| File | Purpose | Owner |
+|---|---|---|
+| `board.md` | Task board: Done, In Progress, Blocked, Next | CEO |
+| `experiments.md` | Experiments, kill dates, time-to-first-revenue, rejected ideas | CEO |
+| `ledger.csv` | Every dollar with a running balance. The only source of truth for cash. | Finance |
+| `leads.csv` | Every contact with its stage and outcome | Marketing |
+| `report.py` | `python3 report.py [YYYY-MM-DD]` prints the daily P&L, runway, funnel, CPL/CAC and flags | Finance |
+| `metrics.md` | Unit economics, break-even, LTV, metric definitions | Finance |
+| `offer.md` | Packages, scope, terms | Product |
+| `sop-delivery.md` | Check and Fix-Up procedure, quality standard, satisfaction criteria | Product |
+| `audit-checklist.md` | The 10-point website check, with a worked example | Product |
+| `outreach.md` | Scripts, follow-up schedule, organic channel plan | Marketing |
+| `landing/index.html` | Sales page (fill in the `{{...}}` placeholders) | Marketing |
+| `daily-report.md` | CEO report template | CEO |
+
+## Daily routine (15 min)
+1. Founder adds yesterday's money to `ledger.csv` (expenses as negative amounts) and yesterday's contacts to `leads.csv`.
+2. Run `python3 report.py`. Fix any flags.
+3. CEO review: update `board.md`, check each experiment against its kill date, and set the top 3 actions.

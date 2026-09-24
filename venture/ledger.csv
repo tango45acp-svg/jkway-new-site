@@ -1,2 +1,2 @@
-date,type,category,description,amount_usd,balance_usd,verified_by
-2026-09-24,capital,seed,Starting capital,100.00,100.00,founder-to-confirm
+date,amount_usd,category,subcategory,description,experiment,balance_usd
+2026-09-24,100.00,capital,seed,Starting capital,-,100.00

@@ -42,3 +42,14 @@ Rules:
 
 ## Closing (after the audit)
 > Everything in this report is covered by the $299 Fix-Up, delivered in 5 business days. It's half upfront and half on delivery. Here's the payment link: {{stripe link}}.
+
+## Organic channels while cash is under $500 (no ad spend)
+| Channel | How to use it | Rules |
+|---|---|---|
+| Local Facebook groups | Look for "Business Spotlight" or "Shop Local" threads. Post: "Free 10-point website check for {{town}} businesses. I'll tell you exactly what's broken, with no pitch unless you ask." | Read each group's rules first, and only post where promotion is allowed. |
+| Nextdoor | Create a free business page and post the same free-check offer once. | One post per area. |
+| LinkedIn | Connect with local business owners and chamber of commerce members. Post one teardown a week once E4 starts. | Anonymize every site unless the owner agrees to be named. |
+| Reddit | Only subreddits that allow self-promotion (for example r/smallbusiness promo threads). | Mostly answer questions. Offer the check only when someone asks. |
+| Chamber of commerce and BNI | Attend free visitor meetings and offer checks to members. | |
+
+Every contact goes into `leads.csv`, with the `channel` column set to the experiment ID (E1–E4).
