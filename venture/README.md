@@ -71,6 +71,7 @@ Every step that touches a customer or cash runs through the founder. Claude does
 | `metrics.md` | Unit economics, break-even, LTV, metric definitions | Finance |
 | `offer.md` | Packages, scope, terms | Product |
 | `sop-delivery.md` | Check and Fix-Up procedure, quality standard, satisfaction criteria | Product |
+| `audit-report-template.md` | Customer-facing website check report plus a 20-minute procedure | Product |
 | `audit-checklist.md` | The 10-point website check, with a worked example | Product |
 | `outreach.md` | Scripts, follow-up schedule, organic channel plan | Marketing |
 | `landing/index.html` | Sales page (fill in the `{{...}}` placeholders) | Marketing |
