@@ -2,6 +2,20 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 3: 2026-09-26 (Saturday)
+1. **Finance:** Cash $100.00. Yesterday (2026-09-25): revenue $0.00, expenses $0.00, profit $0.00. Today so far: $0.00. Runway unlimited. The ledger has only the seed row. No new commits from the founder.
+2. **Highest-leverage action:** Still contacts, but changed for the weekend. Many local businesses are closed or short-staffed on Saturdays, so walk-ins convert worse, and emails sent on weekends are more likely to get buried. **Today: build the list only.** Find 30 local businesses with 2 or more FAILs from `check_site.py`, and log each in `leads.csv` with `stage=contacted` left blank for now. Send and call on Monday morning.
+   - This takes about 90 minutes and needs no talking to anyone. It's the smallest step that gets the funnel started.
+3. **Owners:**
+   - Marketing (founder): list of 30 qualified leads.
+   - Product (Claude): no new build work today. The toolkit is complete for this step, and more documents won't bring in revenue.
+4. **Done today:**
+   - Founder's work: **not done**. 0 rows logged for 3 days in a row.
+   - Claude: cycle log and board updated only. That's on purpose, to avoid busywork.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0. Time to first revenue hasn't started.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** No experiment has started. **Tomorrow (Day 4) is the checkpoint set on Day 2.** If there are still 0 rows, E1 (in-person and phone) gets shelved, and the plan becomes E3 only: a batch of 10 emails, one time slot each day.
+
 ## Day 2: 2026-09-25 (Friday)
 1. **Finance:** Cash $100.00. Yesterday (2026-09-24): revenue $0.00, expenses $0.00, profit $0.00. Today so far: $0.00. Runway unlimited ($0 a day spent). The ledger has only the seed row.
 2. **Highest-leverage action:** Unchanged. **Make the 30 contacts in person or by phone (E1).** `leads.csv` has **0 rows**, so the Day 1 assignment has not been done. It's due today.
