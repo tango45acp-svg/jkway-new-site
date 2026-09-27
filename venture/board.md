@@ -17,8 +17,10 @@ Update this board in every session. Each card has an owner and a date.
 - [x] 2026-09-25 **Ops**: GitHub push fixed. The branch is in sync with GitHub.
 - [x] 2026-09-25 **Product**: Customer-facing check report template with a 20-minute procedure (`audit-report-template.md`).
 
+- [x] 2026-09-27 **CEO**: Day 4 checkpoint. E1 shelved, E3 (email) made the primary channel, and a 45-minute daily batch procedure added to `outreach.md`.
+
 ## In Progress
-- [ ] **Marketing (founder)**: **Day 1 priority.** Experiment 1: 30 contacts in person or by phone. Before each one, run `python3 check_site.py <url>` and contact only businesses with 2 or more FAILs. Log each contact in `leads.csv`. *Assigned 2026-09-24, due 2026-09-25. **Overdue.** 0 rows as of Day 3. Weekend version: build a list of 30 qualified leads today, then contact them Monday 2026-09-28.*
+- [ ] **Marketing (founder)**: **Top priority.** Send the first batch of 10 emails (E3) on Monday 2026-09-28, following the batch procedure in `outreach.md`, and log them in `leads.csv`. *Replaces the Day 1 E1 assignment, which was never started.*
 
 ## Blocked
 - [ ] **Marketing**: The sales page can't go live until the founder provides name, phone, email, town and a Formspree form endpoint.

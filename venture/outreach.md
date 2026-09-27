@@ -35,6 +35,12 @@ Rules:
 - Send from a personal mailbox, 20–40 a day, and write every message by hand. Never buy lists.
 - Honor opt-outs immediately.
 
+## The daily 10-email batch (45 minutes, E3)
+1. **15 min:** Search Google Maps for one trade in one town. For each business website, run `python3 check_site.py <url>` and keep the ones with 2 or more FAILs. Stop at 10.
+2. **5 min:** Find a contact email for each: the site's contact page, or the Google Business Profile.
+3. **20 min:** Send Script 2. Personalize the `{{specific issue}}` line from the checker output, but only with something you've seen yourself.
+4. **5 min:** Add 10 rows to `leads.csv` with `channel=E3`, `stage=contacted`, `outcome=open`, then commit.
+
 ## Follow-up cadence
 - Day 3: "Just bumping this in case it got buried."
 - Day 7: Send the audit anyway, attached, with the $299 offer.

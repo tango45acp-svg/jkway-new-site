@@ -2,6 +2,24 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 4: 2026-09-27 (Sunday), checkpoint
+1. **Finance:** Cash $100.00. Yesterday (2026-09-26): revenue $0.00, expenses $0.00, profit $0.00. Today so far: $0.00. Runway unlimited. The ledger has only the seed row. No new commits from the founder.
+2. **Highest-leverage action:** **Execute the Day 2 pre-commitment.** 0 rows in `leads.csv` after 4 days means the constraint is the founder's time.
+   - E1 (walk-ins and calls) is **shelved**.
+   - E3 (email) becomes the only active channel: **10 emails a day in one 45-minute sitting**, starting Monday 2026-09-28. The procedure is in `outreach.md`.
+3. **Owners:**
+   - Marketing (founder): the first 10-email batch on Monday.
+   - Product (Claude): the batch procedure. Done.
+4. **Done today:**
+   - Claude: `experiments.md` and `outreach.md` updated for the switch.
+   - Founder's work: **not done**. 0 rows, and the Day 3 list-building didn't happen.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0. Time to first revenue hasn't started because no experiment has begun.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:**
+   - E1: shelved.
+   - E3: active from Monday. Kill date is 10 days after its first send.
+   - E2 and E4: no change.
+
 ## Day 3: 2026-09-26 (Saturday)
 1. **Finance:** Cash $100.00. Yesterday (2026-09-25): revenue $0.00, expenses $0.00, profit $0.00. Today so far: $0.00. Runway unlimited. The ledger has only the seed row. No new commits from the founder.
 2. **Highest-leverage action:** Still contacts, but changed for the weekend. Many local businesses are closed or short-staffed on Saturdays, so walk-ins convert worse, and emails sent on weekends are more likely to get buried. **Today: build the list only.** Find 30 local businesses with 2 or more FAILs from `check_site.py`, and log each in `leads.csv` with `stage=contacted` left blank for now. Send and call on Monday morning.

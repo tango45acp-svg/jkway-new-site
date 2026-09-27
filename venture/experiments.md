@@ -7,9 +7,9 @@
 
 | ID | Experiment | Channel | Cost | Start | Early signal needed | Kill date | First $ date | TTFR | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| E1 | Walk-ins and phone calls to local businesses with broken sites | Direct | $0 | not started | 3 or more free checks requested from 50 contacts | start + 7 days | — | — | Not started |
+| E1 | Walk-ins and phone calls to local businesses with broken sites | Direct | $0 | not started | 3 or more free checks requested from 50 contacts | start + 7 days | — | — | **Shelved 2026-09-27.** Founder didn't start it in 4 days, so the constraint is time, not the channel. Can restart if the founder has time for walk-ins. |
 | E2 | Free-check offer in local Facebook groups and Nextdoor | Organic community | $0 | not started | 3 or more inquiries from 5 posts | start + 7 days | — | — | Not started |
-| E3 | Personalized cold email to businesses with visible site bugs | Email | $0 | not started | 5% or more reply rate on 100 emails | start + 10 days | — | — | Not started |
+| E3 | Personalized cold email to businesses with visible site bugs | Email | $0 | not started | 5% or more reply rate on 100 emails | start + 10 days | — | — | **Primary as of 2026-09-27.** 10 emails a day in one 45-minute sitting, starting Monday 2026-09-28. |
 | E4 | LinkedIn and X posts with before/after teardowns of anonymized local sites | Organic content | $0 | after first delivery | 2 or more inbound DMs in 14 days | start + 14 days | — | — | Queued. Needs a real case study first. |
 
 **Kill or scale rule:**
