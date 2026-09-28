@@ -2,6 +2,20 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 5: 2026-09-28 (Monday)
+1. **Finance:** Cash $100.00. Yesterday (2026-09-27): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows.
+2. **Highest-leverage action:** No change. **The first batch of 10 emails (E3) is due today.** It's the first time anything reaches a potential customer.
+3. **Owners:**
+   - Marketing (founder): 10 emails today, logged in `leads.csv`.
+   - Product (Claude): nothing to build. On standby to write website checks within 24 hours of any reply.
+4. **Done today:**
+   - Claude: cycle log only. The board is unchanged because the priority didn't change. The shell was unavailable (the permission check wasn't responding), so this entry was committed through the GitHub API.
+   - Checked on GitHub: `leads.csv` and `ledger.csv` are header plus seed only, with no founder pushes.
+   - Founder's batch is due later today. It's not overdue yet, and it isn't confirmed either.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** No change. E3's 10-day clock starts on its first send.
+
 ## Day 4: 2026-09-27 (Sunday), checkpoint
 1. **Finance:** Cash $100.00. Yesterday (2026-09-26): revenue $0.00, expenses $0.00, profit $0.00. Today so far: $0.00. Runway unlimited. The ledger has only the seed row. No new commits from the founder.
 2. **Highest-leverage action:** **Execute the Day 2 pre-commitment.** 0 rows in `leads.csv` after 4 days means the constraint is the founder's time.
