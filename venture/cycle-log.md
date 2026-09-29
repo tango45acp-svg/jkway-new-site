@@ -2,6 +2,18 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 6: 2026-09-29 (Tuesday)
+1. **Finance:** Cash $100.00. Yesterday (2026-09-28): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows.
+2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** Monday's batch was not logged, so it's now overdue.
+3. **Owners:** Marketing (founder). Claude has no work that can move revenue: every remaining step needs a human identity (sending email, taking payment).
+4. **Done today:**
+   - Claude: synced the local copy with GitHub, and logged the cycle.
+   - Founder's work: **not done**. 0 contacts in 6 days.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0. Time to first revenue hasn't started.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** No experiment has started, so there's nothing to judge.
+   - **CEO recommendation:** the daily cycle adds nothing while the founder isn't active. On Day 7, the CEO will recommend moving the routine from daily to Mondays only until the first contact is logged. That change will be made only if the founder agrees.
+
 ## Day 5: 2026-09-28 (Monday)
 1. **Finance:** Cash $100.00. Yesterday (2026-09-27): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows.
 2. **Highest-leverage action:** No change. **The first batch of 10 emails (E3) is due today.** It's the first time anything reaches a potential customer.
