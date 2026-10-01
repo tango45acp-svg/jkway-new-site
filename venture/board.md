@@ -20,7 +20,7 @@ Update this board in every session. Each card has an owner and a date.
 - [x] 2026-09-27 **CEO**: Day 4 checkpoint. E1 shelved, E3 (email) made the primary channel, and a 45-minute daily batch procedure added to `outreach.md`.
 
 ## In Progress
-- [ ] **Marketing (founder)**: **Top priority.** Send the first batch of 10 emails (E3) on Monday 2026-09-28, following the batch procedure in `outreach.md`, and log them in `leads.csv`. *Replaces the Day 1 E1 assignment, which was never started. **Overdue since Day 6.** 0 rows as of Day 7.*
+- [ ] **Marketing (founder)**: **Top priority.** Send the first batch of 10 emails (E3) on Monday 2026-09-28, following the batch procedure in `outreach.md`, and log them in `leads.csv`. *Replaces the Day 1 E1 assignment, which was never started. **Overdue since Day 6.** 0 rows as of Day 8.*
 
 ## Blocked
 - [ ] **Marketing**: The sales page can't go live until the founder provides name, phone, email, town and a Formspree form endpoint.
