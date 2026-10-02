@@ -2,6 +2,18 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 9: 2026-10-02 (Friday)
+1. **Finance:** Cash $100.00. Yesterday (2026-10-01): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
+2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** It's 4 days overdue.
+3. **Owners:** Marketing (founder).
+4. **Done today:** Claude logged the cycle only. Founder's work: **not done**. 0 contacts in 9 days.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** Nothing to judge.
+   - **Heads-up:** the 14-day limit to first dollar comes due on Day 14 (2026-10-07).
+   - The offer has had **0 exposures** to customers, so missing that deadline would not show the offer fails. It would only show it hasn't been tried.
+   - The Day 14 decision will therefore be about execution capacity (whether the founder can run outreach), not about switching to Plan B.
+
 ## Day 8: 2026-10-01 (Thursday)
 1. **Finance:** Cash $100.00. Yesterday (2026-09-30): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
 2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** It's 3 days overdue.
