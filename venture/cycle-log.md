@@ -2,6 +2,15 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 10: 2026-10-03 (Saturday)
+1. **Finance:** Cash $100.00. Yesterday (2026-10-02): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
+2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** It's 5 days overdue. On a weekend, build the list and send on Monday 2026-10-05.
+3. **Owners:** Marketing (founder).
+4. **Done today:** Claude logged the cycle only. Founder's work: **not done**. 0 contacts in 10 days.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** Nothing to judge. The Day 14 decision on 2026-10-07 is about whether the founder can run outreach (see Day 9).
+
 ## Day 9: 2026-10-02 (Friday)
 1. **Finance:** Cash $100.00. Yesterday (2026-10-01): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
 2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** It's 4 days overdue.
