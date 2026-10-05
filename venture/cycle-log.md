@@ -2,6 +2,15 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 12: 2026-10-05 (Monday)
+1. **Finance:** Cash $100.00. Yesterday (2026-10-04): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
+2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3) today.**
+3. **Owners:** Marketing (founder).
+4. **Done today:** Claude logged the cycle only. Founder's work: today's batch is due later today and can't be confirmed yet. 0 contacts in 12 days.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0.
+6. **Capital:** Keep all $100.
+7. **Kill or double down:** Nothing to judge. The Day 14 decision is on 2026-10-07.
+
 ## Day 11: 2026-10-04 (Sunday)
 1. **Finance:** Cash $100.00. Yesterday (2026-10-03): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
 2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3) on Monday 2026-10-05.**
