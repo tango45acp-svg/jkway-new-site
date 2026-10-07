@@ -2,6 +2,22 @@
 
 Newest day first. Every number comes from `report.py` or from counting rows in the log files.
 
+## Day 14: 2026-10-07 (Wednesday): 14-day decision
+1. **Finance:** Cash $100.00. Yesterday (2026-10-06): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
+2. **14-day rule result:** First dollar not reached. **Root cause:** zero execution. 0 contacts in 14 days, so no customer has ever seen the offer.
+3. **Decision:**
+   - **The model is not killed.** The test that would show it fails never ran. Every alternative on the approved list (digital products, affiliate, freelancing, print-on-demand) has the same requirement: a person who sends messages, opens a payment account, and talks to buyers. Switching models would not remove the bottleneck.
+   - **The venture status is now "Paused: awaiting founder capacity."**
+   - **The 14-day clock resets on the day the first contact is logged in `leads.csv`.**
+4. **Owners:**
+   - Founder: decide whether to run outreach (45 minutes a day), pause, or stop.
+   - Claude: keep logging.
+5. **Measured:** 0 contacts, 0 replies, 0 checks, $0 in 14 days.
+6. **Capital:** Keep all $100. Nothing spent.
+7. **Kill or double down:** No experiment ever ran.
+   - E1: stays shelved.
+   - E2, E3 and E4: stay ready, with no kill dates until they start.
+
 ## Day 13: 2026-10-06 (Tuesday)
 1. **Finance:** Cash $100.00. Yesterday (2026-10-05): revenue $0.00, expenses $0.00, profit $0.00. Runway unlimited. The ledger has only the seed row, and `leads.csv` has 0 rows. No founder commits on GitHub.
 2. **Highest-leverage action:** Unchanged. **Send the first batch of 10 emails (E3).** Monday's batch wasn't logged.

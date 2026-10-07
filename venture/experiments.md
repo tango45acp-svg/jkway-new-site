@@ -1,5 +1,7 @@
 # Experiments
 
+> **Status 2026-10-07 (Day 14):** Paused, waiting on the founder. The first-dollar window ran out with 0 contacts made, so the offer was never tested. The 14-day clock restarts on the day the first contact is logged in `leads.csv`.
+
 **Rules:**
 - Any experiment that needs more than $100 or more than 14 days to its first dollar is rejected.
 - Each experiment gets a **kill date**. If it hasn't hit its signal by then, stop it and move the effort elsewhere.
